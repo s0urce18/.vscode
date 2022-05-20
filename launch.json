@@ -52,11 +52,11 @@
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "C:/Program Files/MinGW/mingw64/bin",
+            "cwd": "C:/Program Files/MinGW/bin",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\Program Files\\MinGW\\mingw64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\Program Files\\MinGW\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "Включить автоматическое форматирование для gdb",
@@ -64,7 +64,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++.exe сборка активного файла ver(2)"
+            "preLaunchTask": "C/C++: g++.exe сборка активного файла"
         },
         {
             "name": "G++: Текущий файл (external)",
@@ -73,11 +73,11 @@
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "C:/Program Files/MinGW/mingw64/bin",
+            "cwd": "C:/Program Files/MinGW/bin",
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\Program Files\\MinGW\\mingw64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\Program Files\\MinGW\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "Включить автоматическое форматирование для gdb",
@@ -85,7 +85,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++.exe сборка активного файла ver(2)"
+            "preLaunchTask": "C/C++: g++.exe сборка активного файла"
         },
         {
             "name": ".NET Core: Текущий файл (integrated)",
