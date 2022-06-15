@@ -3,7 +3,7 @@
         "python",
         "nodejs",
         "typescript",
-        "c++",
+        "g++",
         "dotnet"
     ]
 }
