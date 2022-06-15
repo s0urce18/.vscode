@@ -1,0 +1,9 @@
+{
+    "configs": [
+        "python",
+        "nodejs",
+        "typescript",
+        "c++",
+        "dotnet"
+    ]
+}
