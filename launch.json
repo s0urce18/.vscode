@@ -1,36 +1,36 @@
 {
-    "version": "0.2.0",
+    "version": "2.0.0",
     "configurations": [
         {
-            "name": "Python: Текущий файл (integrated)",
+            "name": "Python: Active file (integrated)",
             "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
         },
         {
-            "name": "Python: Текущий файл (external)",
+            "name": "Python: Active file (external)",
             "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "externalTerminal"
         },
         {
-            "name": "NodeJS: Текущий файл (integrated)",
+            "name": "NodeJS: Active file (integrated)",
             "type": "node",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
         },
         {
-            "name": "NodeJS: Текущий файл (external)",
+            "name": "NodeJS: Active file (external)",
             "type": "node",
             "request": "launch",
             "program": "${file}",
             "console": "externalTerminal"
         },
         {
-            "name": "TypeScript: Текущий файл (integrated)",
+            "name": "TypeScript: Active file (integrated)",
             "type": "node",
             "request": "launch",
             "program": "${file}",
@@ -38,7 +38,7 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "TypeScript: Текущий файл (external)",
+            "name": "TypeScript: Active file (external)",
             "type": "node",
             "request": "launch",
             "program": "${file}",
@@ -46,7 +46,7 @@
             "console": "externalTerminal"
         },
         {
-            "name": "G++: Текущий файл (integrated)",
+            "name": "G++: Active file (integrated)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -59,15 +59,15 @@
             "miDebuggerPath": "C:\\Program Files\\MinGW\\bin\\gdb.exe",
             "setupCommands": [
                 {
-                    "description": "Включить автоматическое форматирование для gdb",
+                    "description": "Enable active formating for gdb",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++.exe сборка активного файла"
+            "preLaunchTask": "C/C++: g++.exe build active file"
         },
         {
-            "name": "G++: Текущий файл (external)",
+            "name": "G++: Active file (external)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -80,15 +80,15 @@
             "miDebuggerPath": "C:\\Program Files\\MinGW\\bin\\gdb.exe",
             "setupCommands": [
                 {
-                    "description": "Включить автоматическое форматирование для gdb",
+                    "description": "Enable active formating for gdb",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++.exe сборка активного файла"
+            "preLaunchTask": "C/C++: g++.exe build active file"
         },
         {
-            "name": ".NET Core: Текущий файл (integrated)",
+            "name": ".NET Core: Active file (integrated)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -99,7 +99,7 @@
             "stopAtEntry": false
         },
         {
-            "name": ".NET Core: Текущий файл (external)",
+            "name": ".NET Core: Active file (external)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
