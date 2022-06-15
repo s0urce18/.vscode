@@ -1,4 +1,5 @@
 {
+    "version": "2.0.0",
     "tasks": [
         {
             "type": "typescript",
@@ -44,6 +45,5 @@
             ],
             "problemMatcher": "$msCompile"
         }
-    ],
-    "version": "2.0.0"
+    ]
 }
