@@ -13,20 +13,8 @@
             }
         },
         {
-            "label": "build",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "build",
-                "${relativeFileDirname}/${relativeFileDirname}.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
-            ],
-            "problemMatcher": "$msCompile"
-        },
-        {
             "type": "cppbuild",
-            "label": "C/C++: g++.exe сборка активного файла",
+            "label": "C/C++: g++.exe build active file",
             "command": "C:/Program Files/MinGW/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
@@ -42,7 +30,19 @@
                 "$gcc"
             ],
             "group": "build",
-            "detail": "компилятор: \"C:/Program Files/MinGW/bin/g++.exe\""
+            "detail": "compiler: \"C:/Program Files/MinGW/bin/g++.exe\""
+        },
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${relativeFileDirname}/${relativeFileDirname}.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ],
     "version": "2.0.0"
