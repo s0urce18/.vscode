@@ -3,6 +3,7 @@
         "python",
         "nodejs",
         "typescript",
+        "go",
         "g++",
         "dotnet"
     ]
