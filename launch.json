@@ -124,6 +124,26 @@
             "cwd": "${workspaceFolder}",
             "console": "externalTerminal",
             "stopAtEntry": false
+        },
+        {
+            "name": "Rust: Active file (integrated)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "rustbuild",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Rust: Active file (external)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "rustbuild",
+            "console": "externalTerminal"
         }
     ]
 }
