@@ -5,6 +5,7 @@
         "typescript",
         "go",
         "g++",
-        "dotnet"
+        "dotnet",
+        "rust"
     ]
 }
