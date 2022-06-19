@@ -104,7 +104,7 @@
             "preLaunchTask": "C/C++: g++.exe build active file"
         },
         {
-            "name": ".NET Core: Active file (integrated)",
+            "name": ".NET: Active file (integrated)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -115,7 +115,7 @@
             "stopAtEntry": false
         },
         {
-            "name": ".NET Core: Active file (external)",
+            "name": ".NET: Active file (external)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
