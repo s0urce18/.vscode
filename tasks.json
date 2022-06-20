@@ -50,7 +50,9 @@
             "command": "rustc",
             "type": "process",
             "args": [
-                "${file}"
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe"
             ]
         },
         {
