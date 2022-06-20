@@ -34,7 +34,7 @@
             "type": "node",
             "request": "launch",
             "program": "${file}",
-            "preLaunchTask": "tsc",
+            "preLaunchTask": "tsbuild",
             "console": "integratedTerminal"
         },
         {
@@ -42,7 +42,7 @@
             "type": "node",
             "request": "launch",
             "program": "${file}",
-            "preLaunchTask": "tsc",
+            "preLaunchTask": "tsbuild",
             "console": "externalTerminal"
         },
         {
@@ -80,7 +80,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++.exe build active file"
+            "preLaunchTask": "cppbuild"
         },
         {
             "name": "G++: Active file (external)",
@@ -101,13 +101,13 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++.exe build active file"
+            "preLaunchTask": "cppbuild"
         },
         {
             "name": ".NET: Active file (integrated)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build",
+            "preLaunchTask": "dotnetbuild",
             "program": "${relativeFileDirname}/bin/Debug/net6.0/${relativeFileDirname}.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
@@ -118,7 +118,7 @@
             "name": ".NET: Active file (external)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build",
+            "preLaunchTask": "dotnetbuild",
             "program": "${relativeFileDirname}/bin/Debug/net6.0/${relativeFileDirname}.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
