@@ -4,60 +4,6 @@
         {
             "type": "typescript",
             "tsconfig": "tsconfig.json",
-            "label": "tsc",
-            "problemMatcher": [
-                "$tsc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        },
-        {
-            "type": "cppbuild",
-            "label": "C/C++: g++.exe build active file",
-            "command": "C:/Program Files/MinGW/bin/g++.exe",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "C:/Program Files/MinGW/bin"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": "build",
-            "detail": "compiler: \"C:/Program Files/MinGW/bin/g++.exe\""
-        },
-        {
-            "label": "build",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "build",
-                "${relativeFileDirname}/${relativeFileDirname}.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
-            ],
-            "problemMatcher": "$msCompile"
-        },
-        {
-            "label": "rustbuild",
-            "command": "rustc",
-            "type": "process",
-            "args": [
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.exe"
-            ]
-        },
-        {
-            "type": "typescript",
-            "tsconfig": "tsconfig.json",
             "label": "tsbuild",
             "problemMatcher": [
                 "$tsc"
@@ -98,6 +44,16 @@
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "rustbuild",
+            "command": "rustc",
+            "type": "process",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe"
+            ]
         }
     ]
 }
